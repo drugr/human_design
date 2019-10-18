@@ -15,21 +15,21 @@ print(hd)
 print(hd_s)
 
 
-char = []
-char1 = []
+# char = []
+# char1 = []
 
 with open('human design.txt', 'r', encoding='utf-8') as file:
 	for line in file:
 		for num in hd:
 			if num in line:
-				char.append(line)
+				print(line)
 with open('human design.txt', 'r', encoding='utf-8') as file:
 	for line in file:
 		for num in hd_s:
 			if num in line:
-				char1.append(line)
-print('-------------------')
-print(char)
-print('-------------------')
-print(char1)
-print('-------------------')
+				print(line)
+# print('-------------------')
+# print(char)
+# print('-------------------')
+# print(char1)
+# print('-------------------')
