@@ -21,12 +21,12 @@ char1 = []
 with open('human design.txt', 'r', encoding='utf-8') as file:
 	for line in file:
 		for num in hd:
-			if num == line:
+			if num in line:
 				char.append(line)
 with open('human design.txt', 'r', encoding='utf-8') as file:
 	for line in file:
 		for num in hd_s:
-			if num == line:
+			if num in line:
 				char1.append(line)
 print('-------------------')
 print(char)
